@@ -5,17 +5,17 @@
   //your mom
       "name": "Sparta",
       "leaderName": "Gorgo",
-      "adjective": ["Spartans"],
-      "startBias": ["Grassland", "Plains","Coast"],
+      "adjective": ["Spartan"],
+      "startBias": ["Plains"],
       "preferredVictoryType": "Domination",   
 
       "startIntroPart1": "Lead Sparta to greatness and glory as you spread your empire with your great Hoplites And Krypteias.",
-      "startIntroPart2": "Have no worries,as Ares shall support your empire and destroy your foes and enemies as your empire prospers and flourishes.",
+      "startIntroPart2": "Have no worries, as Ares shall support your empire and destroy your foes and enemies as your empire prospers and flourishes.",
 
       "declaringWar": "Ares shall help us in battle! Prepare yourselves!",
       "attacked": "You think you can beat us glorious Spartans? We have the support of Ares,The God of War!.",
       "defeated": "Ares has abandoned us. Sparta is defeated....",
-      "introduction": "Welcome to Sparta,Home of Warmongerers and Honorable Hoplites. Want to come to a nearby city to duel?",
+      "introduction": "Welcome to Sparta, Home of Warmongerers and Honorable Hoplites. Want to come to a nearby city to duel?",
      
       "neutralHello": "Are you prepared for suprise invasions?",
       "hateHello": "You will be destroyed.",
@@ -26,7 +26,7 @@
        "innerColor": [242, 205, 17], 
        "favoredReligion": "Paganism",
        "uniqueName": "Queen of Sparta", 
-       "uniques": ["[Great General] is earned [10]% faster", "+[1] [Production] from [Barracks] <when at war> [in all cities]", "+[3] [Culture] from [Barracks] [in all cities]", "+[1] [Production],+[1] [Culture] <when at war> [in all cities]"],
+       "uniques": ["[Great General] is earned [20]% faster", "+[1] [Production] from [Barracks] [in all cities] <when at war>", "+[3] [Culture] from [Barracks] [in all cities]", "+[1] [Production], +[1] [Culture] [in all cities] <when at war>"],
        
        "cities": ["Sparta","Argos","Olympia","Megalopolis","Phigalia","Epidaurus","Stymphalos","Tegea","Thuria","Gorgos","Pharae","Aulon","Tyros"],
        
@@ -36,15 +36,15 @@
   //Macedon
       "name": "Macedon",
       "leaderName": "Alexander the Great",
-      "adjective": ["Macedonians"],
-      "startBias": ["Grassland", "Plains"],
+      "adjective": ["Macedonian"],
+      "startBias": ["Grassland"],
       "preferredVictoryType": "Domination",   
 
       "startIntroPart1": "You have lead Great campaigns against your enemies and foes for the expansion and wealth of your empire with your overwhelming Phalanxes,Tactic,and quick thinking.",
       "startIntroPart2": "You have been through many struggles,but this struggle will test the true strength,loyalty,and glory of your army and empire. Will you win it,or will you just die,laying in your death bed?.",
 
       "declaringWar": "It seems it is time to launch another campaign.",
-      "attacked": "Your launch a war against me,Alexander the Great,The leader who has never lost a battle? This war will go as quickly as your realization this war was a horrible,horrible mistake. .",
+      "attacked": "Your launch a war against me, Alexander the Great,The leader who has never lost a battle? This war will go as quickly as your realization this war was a horrible,horrible mistake. .",
       "defeated": "I guess this is the end of my campaign. Take care of my citizens for me.",
       "introduction": "Why hello! Im sure you heard of me? The Undefeated Champion? The City-sate Destroyer? And most importantly,Alexander the Great.",
      
