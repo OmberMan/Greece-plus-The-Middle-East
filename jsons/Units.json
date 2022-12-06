@@ -12,7 +12,7 @@
       "upgradesTo": "Musketman",
       "replaces": "Swordsman",
       "uniqueTo": "Sparta",
-      "uniques": ["Never appears as a Barbarian unit", "Only available <after adopting [Honor]>", "[+5]% Strength <when attacking>", "[-3]% Strength <when defending>"],
+      "uniques": ["Never appears as a Barbarian unit", "Only available <after adopting [Honor]>", "[+25]% Strength <vs [Melee] Units>", "[-15]% Strength <when defending>"],
       "requiredResource": "Iron",
 
       },
@@ -24,14 +24,14 @@
       "movement": 2,
       "strength": 19,
       "cost": 80,
-      "obsoleteTech": "Civil Service",
-      "upgradesTo": "Pikeman",
+      "obsoleteTech": "Metallurgy",
+      "upgradesTo": "Lancer",
       "replaces": "Spearman",
       "requiredResource": "Bronze",
       "promotions": ["Phalanx"],
       "uniqueTo": "Macedon",
     
-      "uniques": ["Never appears as a Barbarian unit","[+10]% Strength <when adjacent to a [Melee] unit>", "[-33]% Strength <vs cities>"],
+      "uniques": ["Never appears as a Barbarian unit","[+20]% Strength <when adjacent to a [Melee] unit>", "[-33]% Strength <vs cities> <when attacking>"],
      
       },
         {
@@ -48,7 +48,7 @@
       "requiredResource": "Bronze",
       "uniqueTo": "Sparta",
       "promotions": ["Phalanx"],
-      "uniques": ["Never appears as a Barbarian unit", "[-10]% Strength <vs [Melee] units>","[+20]% Strength <vs [Mounted] units>", "[+20]% Strength <vs [Ranged] units> <when defending>"],
+      "uniques": ["Never appears as a Barbarian unit", "[+20]% Strength <vs [Melee] units>","[+20]% Strength <vs [Mounted] units>", "[+20]% Strength <vs [Ranged] units> <when defending>"],
      
       },
       {
@@ -64,7 +64,7 @@
       "replaces": "Trireme",
       "uniqueTo": "Crete",
         "promotions": ["Boarding Party I"],
-      "uniques": ["Never appears as a Barbarian unit", "[+5]% Strength <vs [Water] units>", "May capture killed [Water] units"],
+      "uniques": ["Never appears as a Barbarian unit", "[+10]% Strength <vs [Water] units>", "May capture killed [Water] units"],
 
       },
        {
@@ -75,7 +75,7 @@
       "range": 2,
       "movement": 2,
       "strength": 7,
-      "rangedStrength": 9
+      "rangedStrength": 10,
       "cost": 70,
       "obsoleteTech": "Construction",
       "upgradesTo": "Composite Bowman",
@@ -115,7 +115,7 @@
       "replaces": "Swordsman",
       "requiredResource": "Bronze",
       "uniqueTo": "Assyria",
-      "uniques": ["[+5]% Strength <vs [Melee] units>", "[-10]% Strength <vs [Mounted] units>", "[+20]% Strength <vs [Ranged] units> <when defending>", "[-33]% Strength <vs cities>"],
+      "uniques": ["[+15]% Strength <vs [Melee] units>", "[-10]% Strength <vs [Mounted] units>", "[+20]% Strength <vs [Ranged] units> <when defending>", "[-33]% Strength <vs cities>"],
      
       },
       {
