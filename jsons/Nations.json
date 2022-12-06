@@ -26,7 +26,7 @@
        "innerColor": [242, 205, 17], 
        "favoredReligion": "Paganism",
        "uniqueName": "Queen of Sparta", 
-       "uniques": ["[Great General] is earned [20]% faster", "+[1] [Production] from [Barracks] [in all cities] <when at war>", "+[3] [Culture] from [Barracks] [in all cities]", "+[1] [Production], +[1] [Culture] [in all cities] <when at war>"],
+       "uniques": ["[Great General] is earned [20]% faster", "+[1] [Production] from [Barracks] [in all cities] <when at war>", "+[3] [Culture] from [Barracks] [in all cities]", "+[1] [Production], +[1] [Culture] [in all non-occupied cities] <when at war>"],
        
        "cities": ["Sparta","Argos","Olympia","Megalopolis","Phigalia","Epidaurus","Stymphalos","Tegea","Thuria","Gorgos","Pharae","Aulon","Tyros"],
        
@@ -64,28 +64,28 @@
        { 
          "name": "Crete",
       "leaderName": "Minos",
-      "adjective": ["Cretans"],
+      "adjective": ["Cretan"],
       "startBias": ["Coast"],
       "preferredVictoryType": "Diplomatic",   
 
-      "startIntroPart1": "Son of Zeus,Lead Crete to the mastery of trade and war with your great and powerful Platno's Clusters and Cretan Archers",
-      "startIntroPart2": "Destroy anybody who dares to stand in your path of taking whats your and Honor Zeus's name.",
+      "startIntroPart1": "Son of Zeus, lead Crete to the mastery of trade and war with your great and powerful Platno's Clusters and Cretan Archers",
+      "startIntroPart2": "Destroy anybody who dares to stand in your path of taking whats your and honor Zeus's name.",
 
       "declaringWar": "You scoundrels shall pay for your actions!",
       "attacked": "Ha! You actually think you can beat the King of Europe! Come try for yourself..",
-      "defeated": "It seems i should be joining Hades in the underworld.....",
-      "introduction": "Hello stranger. Im sure you've heard of me,The Son of Zeus,Ruler of Crete,King of the Gods,And the embodiment of all of Europa! Would you like to come by my island for a visit?",
+      "defeated": "It seems I should be joining Hades in the underworld...",
+      "introduction": "Hello stranger. Im sure you've heard of me,The Son of Zeus, Ruler of Crete, King of the Gods, and the embodiment of all of Europa! Would you like to come by my island for a visit?",
      
       "neutralHello": "What does thou need with the King of Gods?",
       "hateHello": "Do not waste my time.",
       
-      "tradeRequest": "Be grateful for having the oppurtunity to trade with the Son of Zeus.",
+      "tradeRequest": "Be grateful for having the opportunity to trade with the son of Zeus.",
       
        "outerColor": [50, 127, 168],		
        "innerColor": [27, 203, 209], 
        "favoredReligion": "Hellenism",
        "uniqueName": "King of Europa", 
-       "uniques": ["[+10]% [Gold],[+10]% [Culture] from [Water] tiles [in capital]", "Enables embarkation for land units <starting from the [Ancient era]>"],
+       "uniques": ["[+25]% [Gold] from [Water] tiles [in all cities connected to capital]", "[+10]% [culture] [in coastal cities]", "Enables embarkation for land units <starting from the [Ancient era]>"],
        
        "cities": ["Chania","Chryssi","Heraklion","Nikolaos","Plakias","Sitia","Paleochorria","Tsoutsouros","Timpaki","Agios","Zakros","Chora Sfakion","Kissamos"],
        
@@ -96,28 +96,28 @@
       { 
          "name": "Timurids",
       "leaderName": "Timur",
-      "adjective": ["Timurids"],
+      "adjective": ["Timurid"],
       "startBias": ["Grassland"],
       "preferredVictoryType": "Cultural",   
 
-      "startIntroPart1": "Divide and Conquer with your great Turkoman Cavalry as your citizens flourish in a golden age with the great mounments and art,King Timur",
-      "startIntroPart2": "Your lands will know no ends with your thousands of vassels will shield you from your Rivals. Lead your empire to greatness,and make sure Turk Culture is known throughout Asia.",
+      "startIntroPart1": "Divide and Conquer with your great Turkoman Cavalry as your citizens flourish in a golden age with the great mounments and art, King Timur",
+      "startIntroPart2": "Your lands will know no ends with your thousands of vassels will shield you from your Rivals. Lead your empire to greatness, and make sure Turk Culture is known throughout Asia.",
 
       "declaringWar": "Our empire calls for new vassels!",
-      "attacked": "Ha! You think you'll make a dent in our empire with all of our puppet cities?.",
-      "defeated": "Curse you! The Timurid empire falls,but its effect on the world will last forever!",
-      "introduction": "Hello Stranger. I'll make it quick,dont mess with us and we wont puppet your cities.",
+      "attacked": "Ha! You think you'll make a dent in our empire with all of our puppet cities?",
+      "defeated": "Curse you! The Timurid empire falls, but its effect on the world will last forever!",
+      "introduction": "Hello Stranger. I'll make it quick, dont mess with us and we wont puppet your cities.",
      
       "neutralHello": "Well?",
       "hateHello": "You disgust me.",
       
-      "tradeRequest": "How about you come make a trade with our vassels?",
+      "tradeRequest": "How about you come make a trade with our vassals?",
       
        "outerColor": [0, 0, 0]  		
        "innerColor": [209, 45, 27], 
        "favoredReligion": "Islam",
        "uniqueName": "Civilized Nomads", 
-       "uniques": ["[+10]% [Production],[+5]% [Culture] when producing [Mounted] unis [in this citiy]"],
+       "uniques": ["[+10]% [Production] when producing [Mounted] units [in all non-occupied cities]", "May buy [Mounted] units with [Culture] [in all cities with a garrison]"],
        
        "cities": ["Samarkand","Isfahand","Shiraz","Qazvin","Zaranj","Tashkent","Bukhara","Merv","Khujand","Herat","Kabul","Ghazni","Qandahar"],
        
@@ -127,30 +127,30 @@
         { 
          "name": "Lydia",
       "leaderName": "Gyges",
-      "adjective": ["Lydians"],
-      "startBias": ["Plains", "Grassland"],
+      "adjective": ["Lydian"],
+      "startBias": ["Plains"],
       "preferredVictoryType": "Cultural",   
 
-      "startIntroPart1": "Come,Gyges of Lydia, and share your unique culture with the world",
+      "startIntroPart1": "Come, Gyges of Lydia, and share your unique culture with the world",
       "startIntroPart2": "Rule the medditearean with your great merchants and dominate the trade networs with your bountiful gold deposits",
 
       "declaringWar": "You have to perish for the greater good of our empire!",
-      "attacked": "Come and get it. If you can.....",
+      "attacked": "Come and get it. If you can...",
       "defeated": "The greek gods have striked again!",
-      "introduction": "Hello stranger! Come visit the Capital of Gold Currency",
+      "introduction": "Hello stranger! Come visit the Capital of Gold Currency.",
      
       "neutralHello": "Hello there?",
       "hateHello": "Curse you!",
       
-      "tradeRequest": "Please,let us do trade",
+      "tradeRequest": "Please, let us do trade",
       
        "outerColor": [227, 204, 226]  		
        "innerColor": [181, 53, 204], 
       
-        "favoredReligion": "Tengriism",
+        "favoredReligion": "Hellenism",
 
        "uniqueName": "Gods of Gold", 
-       "uniques": ["[+10]% [Gold] [in all coastal cities]", "[+20]% [Gold] [in capital]", "[-30]% [Gold] [in all cities] <when at war>"],
+       "uniques": ["[+20]% [Gold] [in all cities connected to capital]", "[+25]% [Gold] [in capital]", "[-25]% [Production] [in all cities] <when at war>"],
        
        "cities": ["Sardis","Troy","Hallicarnassus","Miletus","Ephesus","Smyma","Cyme","Phocaea","Apasa","Ialysus","Kos","Knidos","Eythrai"],
        
@@ -160,17 +160,17 @@
     {
     "name": "Assyria",
       "leaderName": "Sennacherib",
-          "adjective": ["Assyrians"],
-      "startBias": ["Plains", "Grassland"],
+          "adjective": ["Assyrian"],
+      "startBias": ["Plains"],
          "preferredVictoryType": "Domination",   
 
-              "startIntroPart1": "Come,Sennacherib of Assyria, and share your unique culture with the world",
+              "startIntroPart1": "Come, Sennacherib of Assyria, and share your unique culture with the world",
            "startIntroPart2": "Rule the Fertile crescent with your great and advanced Iron Unique Units and make your Assyrian War Machine dominate the world with its Iron Weapons",
 
            "declaringWar": "Its time for you and your wicked citizens to die!",
-      "attacked": "Come and get it. If you can.....",
+      "attacked": "Come and get it. If you can...",
       "defeated": "The greek gods have striked again!",
-      "introduction": "Hello! I reccomend you do not anger us. Otherwise,our War machine will shred you down to smitherines.",
+      "introduction": "Hello! I reccomend you do not anger us. Otherwise, our War machine will shred you down to smitherines.",
      
       "neutralHello": "Hello there?",
       "hateHello": "Curse you!",
@@ -180,21 +180,21 @@
        "outerColor": [191, 129, 6],  		
        "innerColor": [176, 73, 9], 
       
-        "favoredReligion": "Islam",
+        "favoredReligion": "Christianity",
 
        "uniqueName": "The Assyrian War Machine", 
-       "uniques": ["[+10]% [Production] from [Barracks] [in capital]", "[+10]% [Production],[-30]% [Gold] [in all cities] <when at war>","[+30]% [Production] when constructing [Melee] units [in all cities]"],
+       "uniques": ["[+3 Production] from [Barracks] [in capital]", "[+10]% [Production], [-30]% [Gold] [in all cities] <when at war>","[+30]% [Production] when constructing [Melee] units [in all cities]"],
 
        "cities": ["Ninevah","Nimrud","Ashur","Dur-Sharrukin","Haran","Cahlah","Arbela","Arrapakha","Opis","Gozan","Sippar","Til Barship","Samal"],       
 },
  {
     "name": "Pontus",
       "leaderName": "Mithridates VI",
-          "adjective": ["Pontians"],
-      "startBias": ["Plains", "Grassland", "Coast"],
+          "adjective": ["Pontic"],
+      "startBias": ["Plains", "Coast"],
          "preferredVictoryType": "Domination",   
 
-              "startIntroPart1": "Hail,Mithridates VI of Pontus, and show your atonishing millitaristic bravery and unique culture with the world",
+              "startIntroPart1": "Hail, Mithridates VI of Pontus, and show your atonishing millitaristic bravery and unique culture with the world",
            "startIntroPart2": "Rule the Black sea and Turkey with your Leukaspidai and Pantodapoi and ensure Pontus's Safety once and for all",
 
            "declaringWar": "You are a threat to our civlization! You have to die!",
@@ -210,10 +210,10 @@
        "outerColor": [97, 102, 97]  		
        "innerColor": [60, 64, 60], 
       
-        "favoredReligion": "Tengriism",
+        "favoredReligion": "Zoroastrianism",
 
        "uniqueName": "Emperor of the Black Sea", 
-       "uniques": ["[+10]% [Production] from [Coast] tiles [in capital]","[+10]% [Production] [in all coastal cities]"],
+       "uniques": ["[+1 Production] from [Coast] tiles [in capital]","[+10]% [Production] [in all coastal cities]"],
 
        "cities": ["Sinope","Amasya","Ordu","Trapezus","Samsun","Bafra","Tokat","Rize","Bathys","Nicopolis","Cytorus","Amastris","Carusus"],       
 },
